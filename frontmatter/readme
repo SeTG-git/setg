@@ -1,0 +1,7 @@
+# 执行Java命令
+command = f"touch {json_path}"
+process = subprocess.Popen(command, shell=True, preexec_fn=os.setsid)
+command = f"java -jar /home/aibot/workspace/SquiDroidAgent/data/forammter_code/frontmatter/frontmatter-1.0.8-SNAPSHOT.jar all -a /opt/Android/Sdk/platforms  --boomerang-timeout 3 -t  -i {apk_path} -o {json_path}"
+command += " > /dev/null 2>&1"
+# 启动Java进程
+process = subprocess.Popen(command, shell=True, preexec_fn=os.setsid)
