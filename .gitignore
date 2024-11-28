@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Machine Learning
+*.pkl
+*.model
+*.pth
+*.pt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Jupyter Lab
+.jupyterlab-settings/
+
+# Specific to Python data science
+*.npy
+*.npz
