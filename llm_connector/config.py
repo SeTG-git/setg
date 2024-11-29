@@ -111,7 +111,7 @@ QWEN_LOCAL_MODEL_SELECTION = "Qwen/Qwen-1_8B-Chat-Int8"
 
 
 # 接入通义千问在线大模型 https://dashscope.console.aliyun.com/
-DASHSCOPE_API_KEY = ["sk-91dd94de8bd94095b0b0434a88277647"] # 阿里灵积云API_KEY
+DASHSCOPE_API_KEY = ["sk"] # 阿里灵积云API_KEY
 
 
 # 百度千帆（LLM_MODEL="qianfan"）
